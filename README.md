@@ -9,7 +9,7 @@ El buscador da los mismos resultados en número de ocurrencias que el buscador d
 Además, tiene en cuenta que no exista palabra sucesora o antecesora. El tratamiento de 
 símbolos y tildes lo realiza mediante un algoritmo que cuenta el número de caracteres iguales encontrados consecutivamente en la palabra que se compara con la buscada.
 
-Si se quiere buscar sobre archivos distintos a los del ejemplo se tendría que cambiar el [makefile](Codigo Fuente/Makefile)
+Si se quiere buscar sobre archivos distintos a los del ejemplo se tendría que cambiar el makefile.
 
 # Ejecución
 La compilación y ejecución es automática mediante make, y hay que seguir los siguientes pasos:
