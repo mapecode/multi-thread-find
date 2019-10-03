@@ -2,13 +2,14 @@
 Buscador multi-hilo sobre archivos de texto desarrollado en C++. Este proyecto forma parte de la asignatura **Sistemas Operativos II** del grado en Ingeniería Informática en la ESI-CR (UCLM).
 
 # Enunciado
+El enunciado oficial de la práctica se puede ver [aquí](practica2_ssooII.pdf).
 
 # Observaciones
 El buscador da los mismos resultados en número de ocurrencias que el buscador de vscode.
 Además, tiene en cuenta que no exista palabra sucesora o antecesora. El tratamiento de 
 símbolos y tildes lo realiza mediante un algoritmo que cuenta el número de caracteres iguales encontrados consecutivamente en la palabra que se compara con la buscada.
 
-Si se quiere buscar sobre archivos distintos a los del ejemplo se tendría que cambiar el makefile
+Si se quiere buscar sobre archivos distintos a los del ejemplo se tendría que cambiar el makefile.
 
 # Ejecución
 La compilación y ejecución es automática mediante make, y hay que seguir los siguientes pasos:
